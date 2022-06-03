@@ -5,7 +5,7 @@ Build
 - Clean and build application with maven. 
 - mvn clean install
 
-Run
+Execute
 - Run Application.java
 
 Execute commands,
@@ -21,15 +21,15 @@ Execute commands,
   - eg. L 1 2 6 2
 
 - Draw rectangle command 'R'
- - Syntax : R x1 y1 x2 y2
- - Where x1, y1 are bottom left co-ordinates and x2,y2 are top right co-ordinates of rectangle
- - eg. R 14 1 18 3
+  - Syntax : R x1 y1 x2 y2
+  - Where x1, y1 are bottom left co-ordinates and x2,y2 are top right co-ordinates of rectangle
+  - eg. R 14 1 18 3
 
 - Fill command 'B'
- - B x y c
- - where x and y are point from where filling in canvas start and will stop where ever it finds already paint done. Similar to fill command in Windows paint.
- - c is any character to be filled with
- - eg. B 10 3 o
+  - B x y c
+  - where x and y are point from where filling in canvas start and will stop where ever it finds already paint done. Similar to fill command in Windows paint.
+  - c is any character to be filled with
+  - eg. B 10 3 o
 
 Create your own commands by extenting Paint.java and registering the same in main class.
 
