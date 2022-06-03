@@ -12,7 +12,7 @@ Execute commands,
 
 - Create canvas command 'C' 
   - Syntax : C x y
-  - where x is width and y is hight of 2*2 canvas
+  - where x is width and y is height of 2-D canvas
   - eg. C 20 4
 
 - Draw line command 'D'
